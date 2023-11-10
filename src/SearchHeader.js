@@ -1,9 +1,12 @@
 function SearchHeader() {
-  return <div className="App">
-  <form>
-    <label>Ne arıyorsunuz?</label>
-  </form>
-  </div>;
+  return (
+    <div className="searchDiv">
+      <form>
+        <label>Ne arıyorsunuz?</label>
+        <input />
+      </form>
+    </div>
+  );
 }
 
 export default SearchHeader;
