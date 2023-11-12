@@ -1,15 +1,8 @@
 import "./App.css";
 import SearchHeader from "./SearchHeader";
-import axios from "axios";
-
+import searchImages from "./api";
 function App() {
-  const searchImages = (term) => {
-    axios.get("https://api.unsplash.com/search/photos", {
-      headers: {
-        Authorization: "Client-ID toJ37pAx-VwsXof8T_LTwxJe6Xu9xTmshD4SQN62Gas",
-      },
-    });
-  };
+ 
   const handleSubmit = (term) => {
     debugger;
     console.log(term);
